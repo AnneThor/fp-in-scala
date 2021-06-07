@@ -93,3 +93,4 @@ def composeEx[A,B,C](f: B => C, g: A => B): A => C =
 // f andThen g is the same thing as g compose f
 val f = (x: Double) => math.Pi / 2 - x
 val cos = f andThen math.sin
+
